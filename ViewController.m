@@ -24,6 +24,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"Mutt Cutts hits the Road!";
+    
     CGRect theFrame = self.view.frame; //CGRect is a struct - a vanilla container object that has an origin and a size. read-only, can't be changed
     
     theFrame.origin.x = 20; //setting to margin on the left hand side
